@@ -6,7 +6,7 @@
 /*   By: mchristo <mchristo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/23 19:58:53 by mchristo          #+#    #+#             */
-/*   Updated: 2019/01/23 19:59:09 by mchristo         ###   ########.fr       */
+/*   Updated: 2019/01/24 00:02:26 by mchristo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ public:
     }
     Zombie(std::string type, std::string name) {
         _type = type;
-        _name = name;
+        _name = name; 
     }
 };
 

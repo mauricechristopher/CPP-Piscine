@@ -6,7 +6,7 @@
 /*   By: mchristo <mchristo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/23 19:59:03 by mchristo          #+#    #+#             */
-/*   Updated: 2019/01/23 19:59:07 by mchristo         ###   ########.fr       */
+/*   Updated: 2019/01/24 00:02:18 by mchristo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int main() {
     for (int i = 0; i < 5; i++)
     {
         zombie = event.randomChump();
-        delete zombie;
+        delete zombie; 
     }
     return 0;
 }

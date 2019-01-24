@@ -6,7 +6,7 @@
 /*   By: mchristo <mchristo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/23 19:59:18 by mchristo          #+#    #+#             */
-/*   Updated: 2019/01/23 19:59:19 by mchristo         ###   ########.fr       */
+/*   Updated: 2019/01/24 00:02:12 by mchristo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,5 @@ void memoryLeak()
 {
     std::string* panthere = new std::string("String panthere");
     std::cout << *panthere << std::endl;
-    delete panthere;
+    delete panthere; 
 }

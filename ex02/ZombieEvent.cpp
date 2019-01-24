@@ -6,7 +6,7 @@
 /*   By: mchristo <mchristo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/23 19:58:36 by mchristo          #+#    #+#             */
-/*   Updated: 2019/01/23 19:59:10 by mchristo         ###   ########.fr       */
+/*   Updated: 2019/01/24 00:02:29 by mchristo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,6 @@ Zombie *ZombieEvent::randomChump()
 {
     Zombie *zombie;
     zombie = new Zombie();
-    zombie->announce();
+    zombie->announce(); 
     return (zombie);
 }

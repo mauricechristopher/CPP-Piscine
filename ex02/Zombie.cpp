@@ -6,7 +6,7 @@
 /*   By: mchristo <mchristo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/23 19:41:03 by mchristo          #+#    #+#             */
-/*   Updated: 2019/01/23 19:59:08 by mchristo         ###   ########.fr       */
+/*   Updated: 2019/01/24 00:02:21 by mchristo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ std::string Zombie::randomName(void)
     std::string name = "aaaaaaaaaa";
 
     for (int i = 0; i < 10; i++) {
-        if (i == 0)
+        if (i == 0) 
             name[i] = randomC();
         else if (i == 1)
             name[i] = randomV();
